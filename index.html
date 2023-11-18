@@ -25,7 +25,31 @@
     <link rel="stylesheet" href="css/mbr-additional.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
+    <style>
+        .item-wrapper {
+            position: relative;
+            overflow: hidden;
+        }
 
+        .item-img img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-wrapper:hover .image-caption {
+            opacity: 1;
+        }
+
+        .image-wrapper:hover img {
+            transform: scale(1.1);
+
+        }
+
+        .item-wrapper:hover .item-img img {
+            transform: scale(1.1);
+        }
+    </style>
 
 
 </head>
@@ -147,9 +171,10 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-md">
 
-                    <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">
-                        El arte me ha llevado tan lejos... No puedo concebir la vida sin pintar, ya que esta es mi
-                        segunda esencia, mi única realidad.<br><em>
+                    <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 display-7">
+                        "En la galería de la creatividad, cada obra es una ventana que nos invita a explorar mundos de
+                        expresión, donde la paleta de colores se convierte en un viaje emocional y cada pincelada cuenta
+                        una historia única.<br><em>
                         </em></h6>
                 </div>
                 <div class="col-md-12 col-lg-6">
@@ -218,16 +243,14 @@
             </div>
         </div>
     </section>
+
     <section class="testimonails3 carousel slide testimonials-slider cid-si7eEIkpvx" data-interval="false"
         id="testimonials3-2j">
 
         <div class="text-center container">
-
-
             <div class="carousel slide" role="listbox" data-pause="true" data-keyboard="false" data-ride="carousel"
-                data-interval="7000">
+                data-interval="5000">
                 <div class="carousel-inner">
-
 
                     <div class="carousel-item">
                         <div class="user col-md-8">
@@ -244,9 +267,9 @@
                             <div class="user_name mbr-fonts-style mb-2 display-7">
                                 <strong>Paisaje de Saint-Rémy - <em>1889</em></strong>
                             </div>
-
                         </div>
                     </div>
+
                     <div class="carousel-item">
                         <div class="user col-md-8">
                             <div class="user_image">
@@ -262,9 +285,50 @@
                             <div class="user_name mbr-fonts-style mb-2 display-7">
                                 <strong>Vincent van Gogh - <em>Pintor</em></strong>
                             </div>
-
                         </div>
                     </div>
+
+                    <div class="carousel-item">
+                        <div class="user col-md-8">
+                            <div class="user_image">
+                                <img src="images/hombre-de-vitruvio-da-vinci-1024x1010.jpg" alt="">
+                            </div>
+                            <div class="user_text mb-4">
+                                <p class="mbr-fonts-style display-7">
+                                    El "Hombre de Vitruvio" es un símbolo poderoso que encapsula la búsqueda
+                                    renacentista de comprender y representar la belleza y la armonía en la unión de la
+                                    ciencia y el arte.
+                                </p>
+                            </div>
+                            <div class="user_name mbr-fonts-style mb-2 display-7">
+                                <strong>Hombre de Vitruvio - <em>1940</em></strong>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="user col-md-8">
+                            <div class="user_image">
+                                <img src="images/licensed-image.jpeg" alt="">
+                            </div>
+                            <div class="user_text mb-4">
+                                <p class="mbr-fonts-style display-7">
+                                    Admirado por su asombrosa habilidad para plasmar la emoción y la energía cruda
+                                    sobre
+                                    el lienzo, creando reinos completos de color y textura que resuenan
+                                    profundamente en
+                                    nuestra psique. Un maestro en el arte de capturar la esencia de la experiencia
+                                    humana a través de pinceladas que trascienden el tiempo y tocan las fibras más
+                                    íntimas de nuestra alma.
+                                </p>
+                            </div>
+                            <div class="user_name mbr-fonts-style mb-2 display-7">
+                                <strong>Leonardo da Vinci - <em>Pintor</em></strong>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="carousel-controls">
@@ -281,6 +345,7 @@
             </div>
         </div>
     </section>
+
 
 
     <section class="content1 cid-shtF1wM477" id="content1-r">
@@ -359,14 +424,14 @@
                     </p>
                 </div>
             </div>
-            
+
             <!-- <div class="media-container-row">
             <div class="col-md-12"> -->
             <div class="footer-lower mt-3">
                 <div class="media-container-row">
                     <div class="col-md-6 copyright">
                         <p class="mbr-text mbr-fonts-style display-7">
-                            © Copyright YourSite - All Rights Reserved
+                            © 2019 All Rights Reserved. Design by Free Html Templates
                         </p>
                     </div>
                     <div class="col-md-6">
